@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>RCB Fisioterapia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="width: auto;">
+    <header>
+            <div class="mobile-menu">
+                <span class="material-icons" onclick="clickMenu()">menu</span>
+            </div>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE MIM</a></li>
+                <li><a href="#">CONTATOS</a></li>
+                <li><a href="#">AVALIAÇÃO</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <img class="apresentacao__conteudo__logo" src="/assets/Group 1 (1).png" rel="logo RCB Fisioterapia Domiciliar">
+            <img class="apresentacao__conteudo__logo__mobile" src="/assets/Group (1).png" rel="logo RCB Fisioterapia Domiciliar mobile">
+            <h1 class="apresentacao__conteudo__titulo">Ajudo pessoas idosas a serem independentes através da <strong class="destaque-titulo">Fisioterapia Domiciliar de Excelência!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Atendimento personalizado!</p>
+            <div class="apresentacao__links">
+                <a class="apresentacao__links_link" href="https://web.whatsapp.com/send/?phone=5555981703026">MARQUE SUA AVALIAÇÃO</a>
+                <a class="apresentacao__links_link" href="https://web.whatsapp.com/send/?phone=5555981703026">VER ESPECIALIDADES</a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="/assets/raquel.png" rel="Fisioterapeuta Raquel Cristina Braun">
+    </main>
+    <footer>
+        <div class="rodape1">
+            <a href="https://www.facebook.com/raquelbraunfisio/" target="_blank" rel="noopener noreferrer">
+                <img class="mobile" src="/assets/facebook.png" rel="link página do facebook">
+            </a>
+        </div>
+        <div class="rodape1">
+            <a href="https://www.instagram.com/raquelbraunfisio/" target="_blank" rel="noopener noreferrer">
+            <img class="mobile" src="/assets/instagram.png" rel="link página do instagram">
+            </a>
+        </div>
+        <div class="rodape__mobile">
+            <div>
+                <a href="https://www.facebook.com/raquelbraunfisio/" target="_blank" rel="noopener noreferrer">
+                    <img class="mobile" src="/assets/facebook.png" rel="link página do facebook">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/raquelbraunfisio/" target="_blank" rel="noopener noreferrer">
+                <img class="mobile" src="/assets/instagram.png" rel="link página do instagram">
+                </a>
+            </div>
+        </div>
+        <div class="rodape">
+            <div class="ajuste">
+                <a href="https://api.whatsapp.com/send?phone=5555981703026" target="_blank" rel="noopener noreferrer">
+                <img class="mobile" src="/assets/whatsapp.png" rel="link whatsapp">
+                </a>
+                <p>(55) 98170 3026</p>
+            </div>
+        </div>
+        <div class="rodape">
+            <div class="ajuste">
+                <a href="mailto:raquelbraunfisio@outlook.com" target="_blank" rel="noopener noreferrer">
+                <img class="mobile" src="/assets/mail.png" rel="link email">
+                </a>
+                <p>raquelbraunfisio@outlook.com</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'flex') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'flex'
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">HOME</a>
+            <a class="cabecalho__menu__link" href="about.html   ">SOBRE MIM</a>
+            <a class="cabecalho__menu__link" href="about.html   ">CONTATO</a>
+            <a class="cabecalho__menu__link" href="about.html   ">AVALIAÇÃO</a>
+        </nav>-->
